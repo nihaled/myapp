@@ -3,7 +3,7 @@ import Home from "./components/pages/Home";
 // import Navbar from "./components/includes/Navbar";
 import Footer from "./components/includes/footer";
 import Contactus from "./components/pages/Contact";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
 import Ourstory from "./components/pages/Ourstory";
 import Product from "./components/pages/product";
 import MensAccessories from "./components/pages/men";
@@ -13,9 +13,9 @@ function App() {
   return (
     <Router>
       <>
-        
+      
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="myapp" element={<Home />} />
           <Route path="Ourstory" element={<Ourstory />} />
           <Route path="Product" element={<Product/>} />
           <Route path="MensAccessories" element={<MensAccessories/>} />
