@@ -10,7 +10,7 @@ function Navbar() {
         style={{ zIndex: 100 }}
       >
         <div className="container pt-3">
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" to="/myapp">
             <img src={logowhite} alt="SEWELO PARIS" width="150" height="" />
           </Link>
           {/* <Link className="navbar-brand" to="Aboutus">About</Link>
